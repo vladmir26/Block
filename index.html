@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Блок</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
@@ -12,35 +12,48 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <img class="logotype" src="Изображения/Логотип.svg" alt="логотип">
-    <h1>ALL CATEGORIES</h1>
+    <footer class="container footer__container">
+    <h1 class="visually-hidden">Best Tour Plan</h1>
+    <div class="container logo__container">
+    <a href="#"><img class="logotype" src="Изображения/Логотип.svg" alt="логотип"></a>
+    </div>
+    <div class="container categories__container">
+    <h2 class="heading">all categories</h2>
     <ul>
-        <li>All Deals</li>
-        <li>Hotels</li>
-        <li>Activities</li>
-        <li>Spa Packages</li>
-        <li>Hotel Day Packages</li>
-        <li>Restaurants</li>
-        <li>Fitness</li>
-        <li>Rodriques</li>
+        <li><a class="line" href="#">All Deals</a></li>
+        <li><a class="line" href="#">Hotels</a></li>
+        <li><a class="line" href="#">Hotels</a></li>
+        <li><a class="line" href="#">Hotels</a></li>
+        <li><a class="line" href="#">Activities</a></li>
+        <li><a class="line" href="#">Spa Packages</a></li>
+        <li><a class="line" href="#">Hotel Day Packages</a></li>
+        <li><a class="line" href="#">Restaurants</a></li>
+        <li><a class="line" href="#">Fitness</a></li>
+        <li><a class="line" href="#">Rodriques</a></li>
     </ul>
-    <h1>ADDITIONAL INFORMATION</h1>
+    </div>
+    <div class="container additional__container">
+    <h2 class="heading">additional information</h2>
     <ul>
-        <li>About Us</li>
-        <li>Contact Us</li>
-        <li>How does it work?</li>
-        <li>Frequently Acked Questions</li>
-        <li>Deals.mu loyatly program</li>
-        <li>Promote your Business on BTP</li>        
+        <li><a class="line" href="#">About Us</a></li>
+        <li><a class="line" href="#">Contact Us</a></li>
+        <li><a class="line" href="#">How does it work?</a></li>
+        <li><a class="line" href="#">Frequently Acked Questions</a></li>
+        <li><a class="line" href="#">Deals.mu loyatly program</a></li>
+        <li><a class="line" href="#">Promote your Business on BTP</a></li>        
     </ul>
-    <h1>LEGAL INFORMATION</h1>
+    </div>
+    <div class="container legal__container">
+    <h2 class="heading">legal information</h2>
     <ul>
-        <li>Terms & Conditions</li>
-        <li>Dislaimer</li>
-        <li>Cancellation poicy</li>
-        <li>Privacy</li>
+        <li><a class="line" href="#">Terms & Conditions</a></li>
+        <li><a class="line" href="#">Dislaimer</a></li>
+        <li><a class="line" href="#">Cancellation poicy</a></li>
+        <li><a class="line" href="#">Privacy</a></li>
     </ul>
-    <h1>SOCIAL NETWORK</h1>
+    </div>
+    <div class="container network__container">
+    <h2 class="heading">social network</h2>
     <ul>
         <li>
             <a href="#" title="Facebook">
@@ -66,7 +79,9 @@
             </a>
         </li>
     </ul>
-    <h1>CONTACT DETAILS</h1>
+    </div>
+    <div class="container contact__container">
+    <h1>contact details</h1>
     <p>Feel free to contact us by phone, email or by our contact from</p>
     <p><i></i>9748 Blossom Hill Rd undefined Lansing, Idaho 68545 United States</p>
 <ul>
@@ -75,13 +90,17 @@
     <li>Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm)</li>
 </ul>
 <p><i></i>cherly.lawson@example.com</p>
-<h1>SEND US A MESSAGE</h1>
+</div>
+<div class="container message__container">
+<h1>send us a message</h1>
 <form>
     <input type="text" placeholder="Your Full Name*">
     <input type="text" placeholder="Phone Number*">
     <textarea placeholder="Message"></textarea>
-    <input type="submit" value="Send">
-    <p>* Required Fields</p>
+    <input class="message__button" type="submit" value="Send">
+    <p class="message__footnote">* Required Fields</p>
 </form>
+</div>
+</footer>
 </body>
 </html>
