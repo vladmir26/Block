@@ -21,19 +21,18 @@ body {
 .container {
    max-width: 1160px;
    margin-left: auto;
-   width: 100%;
    margin-right: auto;
 }
 
-.footer__container {
+.footer__row {
    display: flex;
 }
 
-.logo__container {
+.logotype__wrapper {
     display: flex;
     align-items: center;
-
-    
+    padding-top: 139px;
+    padding-right: 135px;
 }
 
 .heading {
@@ -46,11 +45,64 @@ body {
 .line {
     text-decoration: none;
     color: #BDBDBD;
-
 }
+
+.categories__wrapper {
+    padding-top: 108px;
+    padding-left: 135px;
+}
+
+.legal__wrapper {
+    padding-top: 108px;
+}
+
+.additional__wrapper {
+    padding-top: 108px;
+    padding-left: 97px;
+}
+
+.network__wrapper {
+    display: flex;
+}
+
+.network__list {
+    display: flex;
+}
+
+.contact__map {
+    background-image: url("Изображения/map-icon.svg");
+    width: 24px;
+    height: 25px;
+    display: inline-block;
+}
+
+.contact__tell {
+    background-image: url("Изображения/tell-icon.svg");
+    width: 19px;
+    height: 17px;
+    display: inline-block;
+}
+
+.contact__e-mail {
+    background-image: url("Изображения/e-mail-icon.svg");
+    width: 18px;
+    height: 14px;
+    display: inline-block;
+}
+
+.button__wrapper {
+    display: flex;
+}
+
 .message__button {
     background-color: #EC1F46;
 }
+
 .message__footnote {
     color: #E0E0E0;
 }
+
+.diclaimer__list {
+    display: flex;
+}
+

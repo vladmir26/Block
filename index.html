@@ -12,12 +12,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <footer class="container footer__container">
+    <footer>
     <h1 class="visually-hidden">Best Tour Plan</h1>
-    <div class="container logo__container">
-    <a href="#"><img class="logotype" src="Изображения/Логотип.svg" alt="логотип"></a>
-    </div>
-    <div class="container categories__container">
+    <div class="footer__row container">
+         <div class="logotype__wrapper">
+            <a href="#"><img class="logotype" src="Изображения/Логотип.svg" alt="логотип"></a>
+         </div>
+     <div class="categories__wrapper">
     <h2 class="heading">all categories</h2>
     <ul>
         <li><a class="line" href="#">All Deals</a></li>
@@ -32,7 +33,7 @@
         <li><a class="line" href="#">Rodriques</a></li>
     </ul>
     </div>
-    <div class="container additional__container">
+    <div class="additional__wrapper">
     <h2 class="heading">additional information</h2>
     <ul>
         <li><a class="line" href="#">About Us</a></li>
@@ -42,19 +43,9 @@
         <li><a class="line" href="#">Deals.mu loyatly program</a></li>
         <li><a class="line" href="#">Promote your Business on BTP</a></li>        
     </ul>
-    </div>
-    <div class="container legal__container">
-    <h2 class="heading">legal information</h2>
-    <ul>
-        <li><a class="line" href="#">Terms & Conditions</a></li>
-        <li><a class="line" href="#">Dislaimer</a></li>
-        <li><a class="line" href="#">Cancellation poicy</a></li>
-        <li><a class="line" href="#">Privacy</a></li>
-    </ul>
-    </div>
-    <div class="container network__container">
+    <div class="network__wrapper">
     <h2 class="heading">social network</h2>
-    <ul>
+    <ul class="network__list">
         <li>
             <a href="#" title="Facebook">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -80,26 +71,52 @@
         </li>
     </ul>
     </div>
-    <div class="container contact__container">
-    <h1>contact details</h1>
+    </div>
+    <div class="legal__wrapper">
+    <h2 class="heading">legal information</h2>
+    <ul>
+        <li><a class="line" href="#">Terms & Conditions</a></li>
+        <li><a class="line" href="#">Dislaimer</a></li>
+        <li><a class="line" href="#">Cancellation poicy</a></li>
+        <li><a class="line" href="#">Privacy</a></li>
+    </ul>
+    </div>
+    </div>
+    <div class="footer__row container">
+       <div class="contact__wrapper">
+    <h1 class="heading">contact details</h1>
     <p>Feel free to contact us by phone, email or by our contact from</p>
-    <p><i></i>9748 Blossom Hill Rd undefined Lansing, Idaho 68545 United States</p>
+    <p><i class="contact__map"></i>9748 Blossom Hill Rd undefined Lansing, Idaho 68545 United States</p>
 <ul>
-    <li><i></i>Tel (business hours) : 269 1500</li>
+    <li><i class="contact__tell"></i>Tel (business hours) : 269 1500</li>
     <li>Tel (hotline) Monday - Saturday: 52-56-61-38 (08:00 am – 20:00 pm)</li>
     <li>Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm)</li>
 </ul>
-<p><i></i>cherly.lawson@example.com</p>
+<p><i class="contact__e-mail"></i>cherly.lawson@example.com</p>
 </div>
-<div class="container message__container">
-<h1>send us a message</h1>
+<div class="message__wrapper">
+<h1 class="heading">send us a message</h1>
 <form>
+    <div class="input__wrapper">
     <input type="text" placeholder="Your Full Name*">
     <input type="text" placeholder="Phone Number*">
+    </div>
     <textarea placeholder="Message"></textarea>
+    <div class="button__wrapper">
     <input class="message__button" type="submit" value="Send">
     <p class="message__footnote">* Required Fields</p>
+    </div>
 </form>
+</div>
+</div>
+<div class="footer__row container">
+    <div class="diclaimer__wrapper">
+<ul class="diclaimer__list">
+    <li><a class="line" href="#">Disclaimer</a></li>
+    <li><a class="line" href="#">Conditions of use</a></li>
+    <li><a class="line" href="#">Cancellation policy</a></li>
+</ul>
+</div>
 </div>
 </footer>
 </body>
