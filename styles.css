@@ -3,7 +3,11 @@ body {
     font-family: 'Mulish', sans-serif;
     font-size: 14px;
     color: #BDBDBD;
-}    
+}
+
+* {
+   box-sizing: border-box;
+}
 
 .visually-hidden {
     position: absolute;
@@ -22,17 +26,17 @@ body {
    max-width: 1160px;
    margin-left: auto;
    margin-right: auto;
+   padding: 0 25px;
 }
 
 .footer__row {
    display: flex;
+   padding-top: 108px;
+   justify-content: space-between;
 }
 
 .logotype__wrapper {
-    display: flex;
-    align-items: center;
-    padding-top: 139px;
-    padding-right: 135px;
+    align-self: flex-end;
 }
 
 .heading {
@@ -40,54 +44,82 @@ body {
     font-size: 18px;
     color: #FFFFFF;
     text-transform: uppercase;
+    margin-bottom: 25px;
 } 
+
+.item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
 
 .line {
     text-decoration: none;
     color: #BDBDBD;
 }
 
-.categories__wrapper {
-    padding-top: 108px;
-    padding-left: 135px;
-}
-
-.legal__wrapper {
-    padding-top: 108px;
-}
-
-.additional__wrapper {
-    padding-top: 108px;
-    padding-left: 97px;
-}
-
 .network__wrapper {
     display: flex;
+    padding-top: 25px;
+}
+
+.network__title {
+    margin-right: 25px;
 }
 
 .network__list {
     display: flex;
 }
 
+.network__item {
+    margin-right: 10px;
+}
+
+.contact__text {
+    padding-bottom: 20px;
+}
+
+.contact__address {
+    padding-bottom: 30px;
+}
 .contact__map {
-    background-image: url("Изображения/map-icon.svg");
+    background-image: url("img/map-icon.svg");
     width: 24px;
     height: 25px;
     display: inline-block;
 }
 
 .contact__tell {
-    background-image: url("Изображения/tell-icon.svg");
+    background-image: url("img/tell-icon.svg");
     width: 19px;
     height: 17px;
     display: inline-block;
 }
-
-.contact__e-mail {
-    background-image: url("Изображения/e-mail-icon.svg");
+.contact__e-mail-text {
+    padding-top: 30px;
+}
+.contact__e-mail-icon {
+    background-image: url("img/e-mail-icon.svg");
     width: 18px;
     height: 14px;
     display: inline-block;
+}
+
+.input__name {
+   width: 255px; 
+   height: 50px;
+   border-radius: 4px;
+}
+
+.input__message {
+   width: 540px; 
+   height: 123px;
+   border-radius: 4px;
+}
+
+.input__phone {
+   width: 255px;
+   height: 50px;
+   border-radius: 4px;
 }
 
 .button__wrapper {
@@ -96,13 +128,28 @@ body {
 
 .message__button {
     background-color: #EC1F46;
+    width: 160px;
+    height: 50px;
+    border-color: #EC1F46;
+    border-radius: 4px;
+
+
 }
 
 .message__footnote {
     color: #E0E0E0;
+    
 }
 
-.diclaimer__list {
+.disclaimer__wrapper {
     display: flex;
+    
 }
+.disclaimer__list {
+   display: flex;
+  
+}
+
+
+
 
