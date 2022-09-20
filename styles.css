@@ -45,7 +45,7 @@ body {
 }
 
 .categories__wrapper {
-    padding-left: 100px;
+   padding-left: 100px;
 }
 
 .heading {
@@ -69,6 +69,7 @@ body {
 .second__wrapper {
     display: flex;
     width: 50%;
+    justify-content: space-between;
 }
 .network__wrapper {
     display: flex;
@@ -181,11 +182,9 @@ body {
 }
 .disclaimer__wrapper {
     display: flex;
-    justify-content: center;
-    margin-top: -40px;
-
-    
+    justify-content: center;    
 }
+
 .disclaimer__list {
     display: flex;
 }
