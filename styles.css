@@ -94,12 +94,25 @@ body {
 
 .contact__address {
     padding-bottom: 30px;
+    position: relative;
+    padding-left: 50px;
 }
 .contact__map {
     background-image: url("img/map-icon.svg");
     width: 24px;
     height: 25px;
     display: inline-block;
+    position: absolute;
+    left: 0;
+}
+
+.contact__list {
+   position: relative;
+   padding-left: 50px;
+}
+
+.contact__item {
+    padding-top: 10px;
 }
 
 .contact__tell {
@@ -107,15 +120,21 @@ body {
     width: 19px;
     height: 17px;
     display: inline-block;
+    position: absolute;
+    left: 0;
 }
 .contact__e-mail-text {
     padding-top: 30px;
+    position: relative;
+    padding-left: 50px;
 }
 .contact__e-mail-icon {
     background-image: url("img/e-mail-icon.svg");
     width: 18px;
     height: 14px;
     display: inline-block;
+    position: absolute;
+    left: 0;
 }
 
 .input__wrapper {
