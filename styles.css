@@ -238,10 +238,12 @@ body {
  
     .first__wrapper {
       display: block;
+      width: 100%;
     }
  
     .second__wrapper {
       display: block;
+      width: 100%;
     }
  
     .categories__wrapper {
@@ -252,12 +254,96 @@ body {
     .additional__wrapper {
      padding-top: 20px;
     }
- 
+    
+    .network__wrapper {
+     display: block;
+    }
+    
+    .network__list {
+     justify-content: center;
+     padding-bottom: 20px;
+    }
+
+    .contact__wrapper {
+      width: 100%;
+    }
+    
+    .contact__text {
+      padding-bottom: 0;
+    }
+
+    .contact__address {
+      padding-left: 0;
+      padding-top: 30px;
+      padding-bottom: 0;
+    }
+
+    .contact__map {
+      display: block;
+      position: relative;
+      top: 0;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;  
+    }
+
+    .contact__list {
+      padding-left: 0;
+      padding-top: 30px;
+    }
+
+    .contact__tell {
+      display: block;
+      position: relative;
+      top: 0;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+    }
+
+    .contact__e-mail-text {
+      padding-left: 0;
+      padding-top: 30px;
+    }
+
+    .contact__e-mail-icon {
+      display: block;
+      position: relative;
+      top: 0;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+    }
+
     .message__wrapper {
+     width: 100%;
      padding-top: 20px;
     }
- 
+
+    .input__wrapper {
+     display: block;
+    }
+
+    .input__name {
+      width: 100%;
+    }
+
+    .input__phone {
+      width: 100%;
+      margin-top: 15px;
+    }
+
+    .input__message {
+     width: 100%;
+    }
+    
+    .footer__row--noflex {
+      padding-top: 70px;
+    }
+
+    .icons__wrapper {
+     justify-content: center;
+     margin-top: 10px;
+    }
+
 }
-
-
-
