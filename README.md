@@ -9,3 +9,5 @@
 - Flexbox, 
 - БЭМ, 
 - адаптивная верстка с использованием медиа-выражений.
+
+<img src='./img/Travel-agency-website-footer.png' alt=''>
