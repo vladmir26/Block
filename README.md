@@ -1,4 +1,4 @@
-<h1>Проект футера сайта турагенства.</h1>
+<h1>Футер сайта турагенства.</h1>
 
 <h2>Description</h2>
 Ссылка на сайт: https://vladmir26.github.io/Travel-agency-website-footer/
